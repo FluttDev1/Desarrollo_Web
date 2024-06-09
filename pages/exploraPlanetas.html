@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explora Planetas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="nav-wrapper">
+        <nav>
+            <img class="logo" src="../assets/img/rocket_blanco.png" alt="">
+            <input type="checkbox" name="" id="toggle">
+            <label for="toggle"><i class="material-icons">menu</i></label>
+            <div class="menu">
+                <ul>  
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="#">Explora Planetas</a></li>
+                    <li><a href="../pages/exploraLunas.html">Explora Lunas</a> </li>
+                    <li><a href="../pages/aprendeMas.html">Aprende Mas</a></li>
+                    <li><a href="../pages/contactos.html">Contactos</a></li>
+                    <li><button class="botonIniciar" onclick="window.location.href = '../pages/login.html'">Iniciar</button></li>
+                </ul>
+            </div>  
+        </nav>
+    </header>
+
+    <main>
+        <section> 
+            <div class="slide">
+                <div class="slide-inner">
+                    <input class="slide-open" type="radio" id="slide-1" 
+                        name="slide" aria-hidden="true" hidden="" checked="checked">
+                    <div class="slide-item">
+                        <img src="../assets/img/planetas_1.jpg">
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-2" 
+                        name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="../assets/img/planetas_2.jpg">
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-3" 
+                        name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="../assets/img/planetas_3.jpg">
+                    </div>
+                        <label for="slide-3" class="slide-control prev control-1">‹</label>
+                        <label for="slide-2" class="slide-control next control-1">›</label>
+                        <label for="slide-1" class="slide-control prev control-2">‹</label>
+                        <label for="slide-3" class="slide-control next control-2">›</label>
+                        <label for="slide-2" class="slide-control prev control-3">‹</label>
+                        <label for="slide-1" class="slide-control next control-3">›</label>
+                    <ol class="slide-indicador">
+                        <li>
+                            <label for="slide-1" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-2" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-3" class="slide-circulo">•</label>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+    <br><br><br><br><br><br>
+
+    <section>
+        <div class="nfo2">
+            <div class="container3">
+                <article class="cardInfo1">
+                    <div class="imagenCuadrados1">
+                        <img src="" alt="">
+                    </div>
+                    <div class="texto3-cards">
+                        <h3>Edad y Tamaño</h3>
+                        <P>Se calcula que tiene unos 13.8 mil millones de años <br>
+                        el tamaño del universo observable es de aproximadamente<br>
+                        93 mil millones de años luz.</P>
+                    </div>
+                </article>
+
+                <article class="cardInfo2">
+                    <div class="imagenCuadrados2">
+                        <img src="" alt="">
+                    </div>
+                    <div class="texto3-cards">
+                        <h3>Formacion del <br> Sistema Solar</h3>
+                        <P>La formación del sistema solar comenzó con<br>
+                        una nube de gas y polvo que acabó <br>
+                        colapsando por su propia gravedad </P>
+                    </div>
+                </article>
+
+                <article class="cardInfo3">
+                    <div class="imagenCuadrados3">
+                        <img src="" alt="">
+                    </div>
+                    <div class="texto3-cards">
+                        <h3>Planetas y Lunas</h3>
+                        <P>Cada planeta en el sistema solar es unico<br>
+                        dueño de un conjunto de Lunas.</P>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <br><br><br><br><br><br>
+
+    <section>  <!--SECCION 6-->
+        <div class="contenedor6">
+            <div class="texto6">
+                <h2>Mantente actualizado sobre el Universo</h2>
+                <p>Inscríbete para conocer los últimos descubrimientos<br>
+                y noticias sobre el sistema solar</p>
+            </div>
+            <div class="formulario">
+                <form action="">
+                    <label for="Ingrese su mail"></label>
+                    <input type="text" id="Ingrese su mail" placeholder="Ingresa tu mail aca!" required>
+                    <input type="submit" value="Suscríbete">
+                </form>
+                <p>* Al suscribirte aceptas los Terminos y Condiciones</p>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <br><br><br><br><br><br>
+
+    <footer>
+        <div class="contenedorSuperior">
+            <div class="logoFooter">
+                <img src="../assets/img/rocket_blanco.png" alt="">
+            </div>
+            <div class="irArriba">
+                <button onclick="window.scrollTo(0, 0)">Ir al principio</button>
+            </div>
+        </div>
+        <div class="contenedorInterno">
+            <div class="contactosFooter">
+                <div>
+                    <h3>Dirección:</h3>
+                    <P>Calle Principal, Ciudad</P>
+                </div>
+                <div>
+                    <h3>Teléfono:</h3>
+                    <p>(123) 456-7890</p>
+                </div>
+                <div>
+                    <h3>Email:</h3>
+                    <a href="mailto:info@miempresa.com?subject=Contacto&body=Necesito Ayuda">Email: info@miempresa.com</a>
+                </div>
+            </div>
+            <div class="linksFooter">
+                <li><a href="../pages/exploraPlanetas.html">Explora Planetas</a></li>
+                <li><a href="../pages/exploraLunas.html">Explora Lunas</a> </li>
+                <li><a href="../pages/aprendeMas.html">Aprende Mas</a></li>
+                <li><a href="../pages/contactos.html">Contactos</a></li>
+            </div> 
+        </div>
+        <div class="logoRedes">
+            <a href="https://linkedin.com" target="_blank">
+                <img src="../assets/img/linkedin_blanco.png" alt="">
+            </a>
+            <a href="https://facebook.com" target="_blank">
+                <img src="../assets/img/facebook_blanco.png" alt="">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="../assets/img/instagram_blanco.png" alt="">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="../assets/img/twitter_blanco.png" alt="">
+            </a>
+            <a href="https://youtube.com" target="_blank">
+                <img src="../assets/img/youtube_blanco.png" alt="">
+            </a>
+        </div>
+        <br>
+        <hr>
+        <br><br>
+        <div class="copyFooter">
+            &copy; <time datetime="2023">2023</time> Copyrigth. Todos los derechos Reservados
+        </div>
+        <br><br>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
